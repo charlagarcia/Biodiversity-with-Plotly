@@ -105,7 +105,7 @@ function buildCharts(sample) {
     // 9. Create the layout for the bar chart. 
     var barLayout = {
      width: 500, height: 500,
-     title: "Top 10 Bacteria Cultures",
+     title: "<b>Top 10 Bacteria Cultures</b>",
      margin: { t: 30, 1: 150 }
      
     };
@@ -132,7 +132,7 @@ function buildCharts(sample) {
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
-      title: "Bacteria Cultures Per Sample",
+      title: "<b>Bacteria Cultures Per Sample</b>",
       margin: { t: 0 },
       hovermode: "closest",
       xaxis: { title: "OTU ID" },
